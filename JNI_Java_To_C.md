@@ -32,7 +32,8 @@ Une fois la méthode implémentée on génère la bibliothèque dynamique (Hello
 'java HelloWorld.java'
 ```
 
-[========]
+<br>
+
 # Echanger des chaînes de caractères en Java et C/C++ et vice versa
 ### 1) Java String to C++ char*:
 ```cpp
