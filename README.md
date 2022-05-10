@@ -244,6 +244,9 @@ I | int
 J | long
 F | float
 D | Double
+LclassName indique une classe | ex: Ljava/lang/String; pour la classe String
+[type indique un tableau | ex: [I pour un tableau d'entier
+(args-types)retType indique un prototype de méthode | ex : (Ljava/lang/String)V
 
 Une fois que l'on a récupéré le jfieldID on peut l'utiliser avec env : 
 ```cpp
