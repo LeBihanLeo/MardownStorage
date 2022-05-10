@@ -48,8 +48,8 @@ Java_HelloWorld_printStringToCpp(JNIEnv *env, jclass cl, jstring str)
  env->ReleaseStringUTFChars(str,cStr);
 }
 ```
-**JNIEnv *env** référence toujours l'environnement par lequel nous obtiendrons les fonctions du support JNI. 
-La méthode prend en entrée, l'env, la classe et le string à convertir. On utilise la méthode "GetStringUTFChars()" afin de transformer le **String** en **char***:
+**JNIEnv \*env** référence toujours l'environnement par lequel nous obtiendrons les fonctions du support JNI. 
+La méthode prend en entrée, l'env, la classe et le string à convertir. On utilise la méthode "GetStringUTFChars()" afin de transformer le **String** en **char**\*:
 
 ```java	
  // Construction d'une chaîne C/C++ à partir d'une chaîne Java
