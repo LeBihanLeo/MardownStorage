@@ -71,6 +71,7 @@ Codage | Signification
 O_RDONLY | Open for reading only.
 O_WRONLY | Open for writing only.
 O_CREAT | Create the file if he doesn't exist
+
 On peut utiliser plusieurs flags en utilisant des '|' de la manière suivante:
 ```c
 int fd = open("dir/myPipe", O_WRONLY|O_CREAT)
